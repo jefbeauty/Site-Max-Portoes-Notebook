@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+body { background-color:blue;
+
+font:normal 24px Arial;
+
+}
+
+.header {
+
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 10px;
+    position:absolute;
+    top: -5px;
+    width: 100%;
+    height: 50px;
+    right: 2px;
+}
+
+
+
+
+
+
+
+/* Formatação do Menu CSS */
+
+nav#menu {
+
+display: block;
+
+
+}
+
+nav#menu ul {
+
+color: red;
+list-style-type: none;
+text-transform: uppercase;
+position: absolute;
+top: 40%;
+left: 0px;
+margin:0;
+padding:0;
+width: 200px;
+background-color:#f1f1f1;
+
+
+
+
+}
+
+
+nav#menu li a {
+display: inline-block;
+padding: 1px;
+margin: 5px;
+background-color:rgba 0,0,0,.3;
+}
+
+
+
+
+h1 {
+
+display: none;
+position: absolute;
+top: 0%;
+left: 250px;
+
+
+}
+
+h2 {
+color:blue;
+font-size: 32px;
+position: absolute;
+text-indent: 20px;
+top: -2%;
+text-shadow: 2px 2px 4px black;
+
+}
+
+/*formatação Imagem */
+
+
+
+figure.Foto-Legenda {
+ border: 2px dotted red;
+ position: absolute;
+ left: 25%;
+ top: 80%;
+
+
+}
+
+
+
+
+figure.Foto-Legenda img {
+
+    width: 100%;
+    height: 100%;
+
+  }
+
+
+figure.Foto-Legenda figcaption {
+  opacity: 0;
+color: white;
+text-align: justify;
+position:absolute;
+top: 0px;
+background-color: rgba(0, 0,0,.4);
+box-sizing: border-box; 
+transition: opacity 1s;
+
+
+}
+
+figure.Foto-Legenda figcaption {
+
+  width:100%;
+  height: 100%;
+
+
+}
+figure.Foto-Legenda figcaption:hover {
+
+opacity: 1 ; 
+
+
+}
